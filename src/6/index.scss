@@ -1,0 +1,22 @@
+/* DO NOT CHANGE THIS ROOT CLASS NAME*/
+.todo__header {
+  padding: 2rem;
+  background: #404040;
+  color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.completed-tasks__text {
+  margin: 0;
+}
+
+.todo__title {
+  margin: 0;
+}
+
+// h1 {
+//    margin: 0;
+// }

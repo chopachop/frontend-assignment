@@ -1,0 +1,33 @@
+.todo-list {
+  margin: 32px;
+  padding: 0;
+}
+
+.todolist__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #404040;
+}
+
+.todolist__text {
+  margin: 0 0 10px 0;
+}
+
+.todosh-enter {
+  opacity: 0;
+}
+
+.todosh-enter-active {
+  opacity: 1;
+  transition: opacity 500ms ease-in;
+}
+
+.todosh-exit {
+  opacity: 1;
+}
+
+.todosh-active {
+  opacity: 0;
+  transition: opacity 500ms ease-in;
+}

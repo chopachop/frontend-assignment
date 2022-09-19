@@ -1,0 +1,31 @@
+.task {
+  list-style-type: none;
+  display: flex;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border: 1px solid #404040;
+  border-radius: 1rem;
+}
+
+.task__content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.btn.delete {
+  color: #404040;
+  background-color: #86b111;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  padding: .5rem 1.5rem;
+}
+
+.checkmark {
+  margin-right: 0.5rem;
+}
+
+input:checked+.task-content div {
+  opacity: 0.5;
+}

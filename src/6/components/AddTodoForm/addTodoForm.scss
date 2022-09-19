@@ -1,0 +1,60 @@
+.form__todo {
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  background: 0;
+  border: 0;
+  padding: 0;
+  color: inherit;
+}
+
+.btn.create {
+  display: block;
+  padding: 0 0.5rem;
+  outline: none;
+  border: none;
+  color: #86b111;
+  font-size: 2rem;
+  cursor: pointer;
+  transition: .3s;
+
+  &:hover {
+    opacity: 0.7;
+    box-shadow: none;
+  }
+}
+
+.new-todo {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid;
+  font-size: 1.2rem;
+  outline: none;
+  width: 30%;
+  margin-right: 2rem;
+  padding: 0.25em;
+
+  transition: border-bottom 150ms ease-in;
+
+  &__ok {
+    border-color: currentColor;
+  }
+
+  &__error {
+    border-color: red;
+  }
+
+  &::placeholder {
+    opacity: 0.4;
+  }
+
+  &:focus {
+    border-bottom-width: 3px;
+  }
+
+  :focus::placeholder {
+    opacity: 0.15;
+  }
+}
